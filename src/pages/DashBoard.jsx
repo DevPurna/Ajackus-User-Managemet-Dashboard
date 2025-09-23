@@ -7,7 +7,7 @@ import Pagination from "../components/Pagination";
 import FilterSearch from "../components/FilterSearch";
 import FilterModal from "../components/FilterModal";
 
-export default function Dashboard() {
+export default function DashBoard() {
   const [users, setUsers] = useState([]);
   const [showForm, setShowForm] = useState(false);
   const [editUser, setEditUser] = useState(null);
